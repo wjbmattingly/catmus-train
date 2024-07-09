@@ -1,30 +1,8 @@
 # CATMuS Medieval Script Trainer
 
-This project provides a training pipeline for models on the CATMuS Medieval dataset, which is a multilingual large-scale cross-century dataset in Latin script for handwritten text recognition (HTR) and beyond.
+This project provides a training pipeline for models on the [CATMuS Medieval dataset](https://huggingface.co/datasets/CATMuS/medieval), which is a multilingual, multiscript medieval HTR dataset.
 
 ## Installation
-
-First, ensure you have Python 3.8 or higher installed. Then, install the required dependencies and the project itself using Poetry:
-
-```bash
-# Install Poetry if you haven't already
-curl -sSL https://install.python-poetry.org | python3 -
-
-# Install dependencies and the project
-poetry install
-```
-
-Alternatively, you can use `requirements.txt`:
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Install the project in editable mode
-pip install -e .
-```
-
-## Usage
 
 ```bash
 git clone https://github.com/wjbmattingly/catmus-train
@@ -35,6 +13,8 @@ cd catmus-train
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+## Usage
 
 ```bash
 catmus-train --shuffle_seed 42 --select_range 1000 --batch_size 4 --epochs 10 --logging_steps 1000 --save_steps 1000 --save_limit 2 --compute_cer_flag --device mps:0 --scripts Caroline
