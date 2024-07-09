@@ -1,6 +1,3 @@
-Here is a `README.md` file for your project:
-
-```markdown
 # CATMuS Medieval Script Trainer
 
 This project provides a training pipeline for models on the CATMuS Medieval dataset, which is a multilingual large-scale cross-century dataset in Latin script for handwritten text recognition (HTR) and beyond.
