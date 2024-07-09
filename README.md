@@ -1,6 +1,6 @@
 # CATMuS Medieval Script Trainer
 
-This project provides a training pipeline for models on the [CATMuS Medieval dataset](https://huggingface.co/datasets/CATMuS/medieval), which is a multilingual, multiscript medieval HTR dataset.
+This project provides a training pipeline for models on the [CATMuS Medieval dataset](https://huggingface.co/datasets/CATMuS/medieval), which is a multilingual, multiscript medieval HTR dataset. The training portion comes [largely from this notebook.](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb) It has been modified to align with CATMuS.
 
 ## Installation
 
