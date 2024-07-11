@@ -1,0 +1,20 @@
+title: Catmus Train
+description: This is a repo for working with the CATMuS dataset to train TrOCR models.
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "" # the base hostname & protocol for your site, e.g., http://example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-redirect-from
+
+# Exclude files from conversion
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
