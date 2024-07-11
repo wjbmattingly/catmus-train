@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-catmus-train --shuffle_seed 42 --select_range 1000 --batch_size 4 --epochs 10 --logging_steps 1000 --save_steps 1000 --save_limit 2 --compute_cer_flag --device mps:0 --scripts Caroline
+python main.py --shuffle_seed 42 --select_range 1000 --batch_size 4 --epochs 10 --logging_steps 1000 --save_steps 1000 --save_limit 2 --compute_cer_flag --device mps:0 --scripts Caroline
 ```
 
 ### List of Pre-trained Models
