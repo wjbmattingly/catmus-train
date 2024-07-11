@@ -11,8 +11,9 @@ def get_next_version(output_dir):
     next_version = max(existing_versions, default=0) + 1
     return next_version
 
-
+# https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb
 def train_model(script="Cursiva", checkpoint=None, from_pretrained_model="./Caroline", device='cpu', compute_cer_flag=False, version=None, **kwargs):
+    
     output_dir = f"./{script}"
     if version is None:
         version = get_next_version(output_dir)
